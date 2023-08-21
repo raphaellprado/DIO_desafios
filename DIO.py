@@ -12,7 +12,7 @@ df = {0:{'name': 'João', 'entrada': None},
 print(teste.center(10, "-"))
 print(df)
 print(teste.center(10, "-"))
-for i in range(5):
+for i in range(4):
   time.sleep(3)
   gpt = openai.ChatCompletion.create(model="gpt-3.5-turbo",
       messages=[
