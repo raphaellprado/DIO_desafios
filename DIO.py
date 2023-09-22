@@ -16,7 +16,7 @@ for i in range(4):
   time.sleep(3)
   gpt = openai.ChatCompletion.create(model="gpt-3.5-turbo",
       messages=[
-      {"role": "system","content": "Você é um escritor de livros de generp de autoajuda"},
+      {"role": "system","content": "Você é um escritor de livros de genero de autoajuda"},
       {"role": "user","content": f"Crie uma mensagem para {df[i]['name']} com pensamentos positivos com no máximo 100 caracteres"}])
   
   print(teste.center(4, '-'))
