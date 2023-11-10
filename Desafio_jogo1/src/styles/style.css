@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 10vh;
+    background-color: azure;
+}
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 90px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    border-bottom: 5px solid gold;
+}
+.panel{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.square{
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+    background-color: aquamarine;
+}
+.enemy{
+    background-image: url(../images/raph.jpg);
+    background-size: cover;
+    background-color: red;
+}
+.menu-lives{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+.menu-time h2:nth-child(2), .menu-score h2:nth-child(2){
+    margin-top: 1rem;
+}
